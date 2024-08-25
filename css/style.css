@@ -2,7 +2,7 @@ header {
     display: flex;
     padding-top: 1em;
     padding-bottom: 1em;
-    background-image: url(../img/Fondo1.jpg);
+    background-image: url(/img/);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
