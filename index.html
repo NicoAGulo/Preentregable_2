@@ -30,7 +30,7 @@
             <ul class="botones">
                 <li class="b-home"><a href="/index.html">Home</a></li>
                 <li class="b-photos"><a href="/clothes.html">Clothes</a></li>
-                <li class="b-history"><a href="/history.html">History</a></li>
+                <li class="b-history"><a href="/aboutUs.html">About Us</a></li>
                 <li class="b-about"><a href="/contact.html">Contact</a></li>
             </ul>
         </div>
@@ -38,14 +38,33 @@
     </header>
 
     <main>
-        <section class="lugar">
-            <div class="phrase">
-                <p>"Fashion is the armor to survive the reality of everyday life, evolving through time
-                    to empower and
-                    inspire." </p>
-                <p>~Tuthe Tuteiush</p>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="/clothes.html"><img src="/img/LocalDentro1.jpg" class="d-block w-100"
+                            alt="Foto de local por dentro 1"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/clothes.html"><img src="/img/LocalDentro2.jpg" class="d-block w-100"
+                            alt="Foto de local por dentro 2"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="clothes.html"><img src="/img/LocalDentro3.jpg" class="d-block w-100"
+                            alt="Foto de local por dentro "></a>
+                </div>
             </div>
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
         <section class="selector">
             <div class="card" style="width: 15rem;">
@@ -53,9 +72,6 @@
                 <div class="card-body">
                     <h5 class="card-title">DreadShoes Bundle</h5>
                     <p class="card-text">Reimagined 90s classics: Our urban sneaker collection.</p>
-                </div>
-                <div class="card-body">
-                    <a href="#" class="card-link">See more</a>
                 </div>
             </div>
 
@@ -65,9 +81,6 @@
                     <h5 class="card-title">Mouth Bundle</h5>
                     <p class="card-text">A tribute to the colorful soul of La Boca: Our new color collection.</p>
                 </div>
-                <div class="card-body">
-                    <a href="#" class="card-link">See more</a>
-                </div>
             </div>
 
             <div class="card" style="width: 15rem;">
@@ -76,12 +89,7 @@
                     <h5 class="card-title">Taxi Bundle</h5>
                     <p class="card-text">Collection of taxi drivers. Classic service for the avant-garde.</p>
                 </div>
-                <div class="card-body">
-                    <a href="#" class="card-link">See more</a>
-                </div>
             </div>
-
-
 
             <div class="card" style="width: 15rem;">
                 <img src="/img/XenonSerie (1).jpg" class="card-img-top" alt="Xenon Series">
@@ -89,23 +97,22 @@
                     <h5 class="card-title">Xenon Bundle</h5>
                     <p class="card-text">Illuminate your style with our Xenon collection.</p>
                 </div>
-                <div class="card-body">
-                    <a href="#" class="card-link">See more</a>
-                </div>
             </div>
-
-
 
         </section>
 
         <footer>
-            <div class="inside"><img src="/img/LocalDentro1.jpg" alt="Inside"></div>
+            <section class="section-footer">
+                <div class="inside"><img class="inside-foto" src="/img/Local.jpg" alt="Inside"></div>
+
+                <div class="inside-text">
+                    <a href="#">We Are Kronos</a>
+                </div>
+            </section>
         </footer>
 
 
     </main>
-
-
 
 
 
