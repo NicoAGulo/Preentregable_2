@@ -7,7 +7,7 @@ header {
     display: flex;
     padding-top: 1em;
     padding-bottom: 1em;
-    background-image: url(/img/Fondo1.jpg);
+    background-image: url(../img/Fondo1.jpg);
     background-position: top;
     justify-content: space-around;
 }
@@ -88,7 +88,7 @@ h2 {
 .lugar {
     display: flex;
     height: 30em;
-    background-image: url(/img/Local.jpg);
+    background-image: url(../img/Local.jpg);
     background-position: center;
     background-color: black;
     background-size: contain;
@@ -111,7 +111,7 @@ h2 {
 
 .selector {
     display: flex;
-    background-image: url(/img/Fondo1.jpg);
+    background-image: url(../img/Fondo1.jpg);
     background-position: bottom;
     justify-content: space-around;
 }
