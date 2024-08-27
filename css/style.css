@@ -77,7 +77,12 @@ h2 {
 .imagen-sticky {
     position: absolute;
     height: 3rem;
-    transform: translate(10-0%);
+    transform: translate(50%);
+    filter: opacity(60%);
+}
+
+.imagen-sticky:hover {
+    filter: none;
 }
 
 .lugar {
@@ -180,6 +185,30 @@ footer {
     justify-content: space-around;
     background-color: black;
 }
+
+.video-loop {
+    text-align: center;
+    background-color: black;
+}
+
+.video-archivo {
+    height: auto;
+    width: 80%;
+}
+
+.historias {
+    text-align: center;
+    padding: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    background-color: black;
+}
+
+form {
+    text-align: center;
+}
+
+
 
 @media (max-width: 460px) {
     .card-text {
