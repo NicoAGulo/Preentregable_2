@@ -62,16 +62,22 @@ h2 {
     background-color: rgb(255, 140, 0, 0.500);
 }
 
-.b-about {
+.b-clothes {
     background-color: rgb(180, 131, 149, 0.500);
 }
 
-.b-photos {
+.b-aboutUs {
     background-color: rgb(0, 115, 255, 0.500);
 }
 
-.b-history {
+.b-contact {
     background-color: rgb(168, 228, 160, 0.500);
+}
+
+.imagen-sticky {
+    position: absolute;
+    height: 3rem;
+    transform: translate(10-0%);
 }
 
 .lugar {
@@ -112,10 +118,11 @@ h2 {
 
 .card-title {
     padding-bottom: 2rem;
+    text-align: center;
 }
 
 
-.card-body .card:hover {
+.card:hover {
     transform: scale(1.1);
     z-index: 1;
     box-shadow: 0px 0px 300px rgba(0, 0, 0, 0.8);
@@ -172,4 +179,14 @@ footer {
     font-size: 5rem;
     justify-content: space-around;
     background-color: black;
+}
+
+@media (max-width: 460px) {
+    .card-text {
+        display: none;
+    }
+
+    .card-title {
+        font-size: small;
+    }
 }
